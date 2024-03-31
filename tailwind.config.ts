@@ -15,6 +15,12 @@ const config: Config = {
       },
       colors: {
         'lgrey': "hsl(0, 0%, 86%)"
+      },
+      fontFamily: {
+        poppins: ['Poppins'],
+      },
+      screens: {
+        'xs': "375px",
       }
     },
   },

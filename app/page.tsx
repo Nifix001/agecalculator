@@ -31,12 +31,12 @@ export default function Home() {
   };
   return (
     <main className="bg-lgrey h-screen w-screen flex justify-center items-center">
-      <div className="bg-white w-2/4 h-3/5 rounded-ee-[10rem] rounded-xl p-10">
+      <div className="bg-white w-2/4 h-4/6 rounded-ee-[10rem] rounded-xl p-10">
       <div className="flex justify-right gap-6 px-4">
       <div className="flex flex-col">
         <label>DAY</label>
         <input 
-        className="border rounded-md h-12 w-32 outline-purple-300 cursor-pointer text-center"
+        className="border rounded-md h-12 w-32 outline-purple-300 cursor-pointer text-black font-bold text-xl p-2"
         placeholder="DD" 
         type="number" 
         value={day} 
@@ -45,7 +45,7 @@ export default function Home() {
       <div className="flex flex-col">
         <label>MONTH</label>
         <input 
-        className="border rounded-md h-12 w-32 outline-purple-400 cursor-pointer text-center" 
+        className="border rounded-md h-12 w-32 outline-purple-400 cursor-pointer text-black font-bold text-xl p-2" 
         type="number" 
         placeholder="MM"
         value={month} 
@@ -54,7 +54,7 @@ export default function Home() {
       <div className="flex flex-col">
         <label>YEAR</label>
         <input 
-        className="border rounded-md h-12 w-32 outline-purple-400 cursor-pointer text-center" 
+        className="border rounded-md h-12 w-32 outline-purple-400 cursor-pointer text-black font-bold text-xl p-2" 
         type="number" 
         placeholder="YYYY"
         value={year} 
@@ -67,9 +67,9 @@ export default function Home() {
       </div>
       
         <div>
-          <h1><span>{age ? `${age.years}` : '--'}</span> Years</h1>
-          <h1><span>{age ? `${age.months}` : '--'}</span> Months</h1>
-          <h1><span>{age ? `${age.days}` : '--'}</span> Days</h1>
+          <h1 className="text-black font-extrabold font-poppins text-7xl"><span className="text-purple-600 font-poppins font-extrabold text-7xl">{age ? `${age.years}` : '--'}</span> years</h1>
+          <h1 className="text-black font-extrabold font-poppins text-7xl"><span className="text-purple-600 font-poppins font-extrabold text-7xl">{age ? `${age.months}` : '--'}</span> months</h1>
+          <h1 className="text-black font-extrabold font-poppins text-7xl"><span className="font-poppins font-extrabold text-7xl text-purple-600">{age ? `${age.days}` : '--'}</span> days</h1>
         </div>
     </div>
     </main>
