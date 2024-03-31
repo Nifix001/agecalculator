@@ -34,27 +34,27 @@ export default function Home() {
       <div className="bg-white w-2/4 h-4/6 rounded-ee-[10rem] rounded-xl p-10">
       <div className="flex justify-right gap-6 px-4">
       <div className="flex flex-col">
-        <label>DAY</label>
+        <label className="font-poppins text-xs text-gray-500 font-semibold">DAY</label>
         <input 
-        className="border rounded-md h-12 w-32 outline-purple-300 cursor-pointer text-black font-bold text-xl p-2"
+        className="border rounded-md h-12 w-32 outline-purple-300 cursor-pointer font-poppins text-black font-bold text-xl p-2"
         placeholder="DD" 
         type="number" 
         value={day} 
         onChange={(e) => setDay(e.target.value)} />
       </div>
       <div className="flex flex-col">
-        <label>MONTH</label>
+        <label className="font-poppins text-xs text-gray-500 font-semibold">MONTH</label>
         <input 
-        className="border rounded-md h-12 w-32 outline-purple-400 cursor-pointer text-black font-bold text-xl p-2" 
+        className="border rounded-md h-12 w-32 outline-purple-400 cursor-pointer font-poppins text-black font-bold text-xl p-2" 
         type="number" 
         placeholder="MM"
         value={month} 
         onChange={(e) => setMonth(e.target.value)} />
       </div>
       <div className="flex flex-col">
-        <label>YEAR</label>
+        <label className="font-poppins text-xs text-gray-500 font-semibold">YEAR</label>
         <input 
-        className="border rounded-md h-12 w-32 outline-purple-400 cursor-pointer text-black font-bold text-xl p-2" 
+        className="border rounded-md h-12 w-32 outline-purple-400 cursor-pointer font-poppins text-black font-bold text-xl p-2" 
         type="number" 
         placeholder="YYYY"
         value={year} 
@@ -63,7 +63,7 @@ export default function Home() {
       </div>
       <div className="flex justify-right items-center">
       <hr className="border w-[32rem] " />
-      <button className="bg-purple-600 rounded-full p-3 cursor-pointer" onClick={calculateAge}><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+      <button className="bg-purple-600 rounded-full p-3 cursor-pointer hover:bg-black" onClick={calculateAge}><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
       </div>
       
         <div>
