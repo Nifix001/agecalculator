@@ -20,7 +20,7 @@ const config: Config = {
         poppins: ['Poppins'],
       },
       screens: {
-        'xs': "375px",
+        'xs': "325px",
       }
     },
   },
