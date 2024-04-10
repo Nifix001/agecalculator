@@ -89,7 +89,7 @@ export default function Home() {
       </div>
       <div className="flex justify-start items-center xs:max-sm:my-8 xs:max-sm:flex xs:max-sm:justify-center xs:max-sm:items-center">
       <hr className="border w-[32rem] xs:max-sm:w-full" />
-      <button className="bg-purple-600 rounded-full p-3 xs:max-sm:p-1 cursor-pointer hover:bg-black xs:max-sm:absolute xs:max-sm:top-1/3 xs:max-sm:mt-2" onClick={calculateAge}><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+      <button className="bg-purple-600 rounded-full p-3 xs:max-sm:p-1 cursor-pointer hover:bg-black xs:max-sm:absolute xs:max-sm:top-1/3 xs:max-sm:mt-4" onClick={calculateAge}><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
       </div>
       
         <div>
