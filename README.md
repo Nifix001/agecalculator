@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./public/Screenshot%20(228).png)
+![](./app/Screenshot%20(228).png)
 
 ### Links
 
